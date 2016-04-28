@@ -27,7 +27,7 @@ public class PingController {
     public Response ping() {
 
 
-        return Response.status(201)
+        return Response.status(200)
                 .entity(new Entity("John Doe"))
                 .build();
     }
